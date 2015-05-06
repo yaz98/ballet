@@ -1,0 +1,279 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>Aplic. Web de jQuery Mobile</title>
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.css">
+
+<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+
+<script src="http://code.jquery.com/mobile/1.4.2/jquery.mobile-1.4.2.min.js"></script>
+<script src="js/trabajo.js"type="text/javascript"></script>
+</head> 
+<body> 
+
+<div data-role="page" id="page">
+	<div data-role="header">
+		<h1>Menu principal</h1>
+	</div>
+	<div data-role="content">	
+		<ul data-role="listview">
+			<li><a href="#ballet" data-transition="flip">Ballet</a></li>
+            <li><a href="#fotos" data-transition="pop">Galeria</a></li>
+			<li><a href="#bailarinas" data-transtion="slide">Bailarinas</a></li>
+		</ul>		
+	</div>
+	<div data-role="footer" data-position="fixed" >
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+          </li>
+          <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda 
+          </a>
+          </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          contacto 
+          </a>
+          </li>
+          </ul>
+          
+	</div>
+</div>
+</div>
+
+<div data-role="page" id="ballet">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK </a>
+		<h1> ballet </h1>
+        
+	</div>
+	<div data-role="content">
+   
+                <center>
+                
+   
+     <a href="#ballet" data-rel="popup" data-position-to="window">
+     <img src="imagenes/ballet.jpg" alt="ball" style="width:100px;"></a>
+     <div data-role="popup" id="ballet">
+     <p> Ella es una bailarina de ballet :3 </p>
+     <a href="#ballet" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+     <img src="imagenes/ballet.jpg" style="width:600px;height:400px;" alt="ball">
+     
+     </div>
+     </center>
+     </div>
+     
+     <table width="250" border="1">
+  <tr align="center" bgcolor="#FF66CC">
+    <td>Nombre de la bailarina</td>
+    <td>Tiempo de preparacion</td>
+    <td>Vestuatrio </td>
+    <td>Numero de posicion</td>
+    <td>Flexibilidad Por ciento</td>
+  </tr>
+  <tr align="center" bgcolor="#FF99FF">
+    <td>Jaqueline de Araúju</td>
+    <td>8 años</td>
+    <td>Leotardos, mallas con una falda opcional(tutú)</td>
+    <td>Todas las posiciones</td>
+    <td>100% </td>
+  </tr>
+</table>
+
+      </div>
+	<div data-role="footer" data-position="fixed" >
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+          </li>
+          <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda 
+          </a>
+          </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          contacto 
+          </a>
+          </li>
+          </ul>
+          
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="bailarinas">
+	<div data-role="header">
+       <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK </a>
+		<h1>Página cuatro</h1>
+	</div>
+	<div data-role="content">	
+		Contenido	
+ 
+    </div>
+	<div data-role="footer" data-position="fixed" >
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+          </li>
+          <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda 
+          </a>
+          </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          contacto 
+          </a>
+          </li>
+          </ul>
+          
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="fotos">
+	<div data-role="header">
+    <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK </a>
+		<h1>Imagenes</h1>
+	</div>
+	<div data-role="content">	
+			<p> Desliza sobre el cuadro de texto. </p>
+     <p Style="border:1px solid black;height:200px;width:200px;"></p>
+     <p><span style="color:red"></span></p>	
+     	
+        <center>
+    <a href="#b1" data-rel="popup" data-position-to="window">
+    <img src="imagenes/b1.jpeg" alt="yi" style="width:100px;"></a>
+    <div data-role="popup" id="b1">
+    <p> :D </p>
+    <a href="#b1" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <img src="imagenes/b1.jpeg" style="width:600px;height:400px;" alt="yi">
+    </div>
+    
+     <a href="#esfuerzate" data-rel="popup" data-position-to="window">
+    <img src="imagenes/esfuerzate.jpeg" alt="esf" style="width:100px;"></a>
+    <div data-role="popup" id="esfuerzate">
+    <p> Tu puedes! </p>
+    <a href="#b1" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <img src="imagenes/esfuerzate.jpeg" style="width:600px;height:400px;" alt="esf"> </div>
+    </center>
+    </div>
+	<div data-role="footer" data-position="fixed" >
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+          </li>
+          <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda 
+          </a>
+          </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          contacto 
+          </a>
+          </li>
+          </ul>
+          
+	</div>
+	</div>
+</div>
+
+<div data-role="page" id="bailarinas">
+	<div data-role="header">
+       <a data-role="button" data-rel="back" data-direction="reverse" data-icon="back">BACK </a>
+		<h1>Algunas Bailarinas De Ballet</h1>
+	</div>
+	<div data-role="content">	
+		Contenido	
+        <center>
+     <a href="#images" data-rel="popup" data-position-to="window">
+    <img src="imagenes/images.jpg" alt="ima" style="width:100px;"></a>
+    <div data-role="popup" id="images">
+    <p> No importa la edad :3 </p>
+    <a href="#images" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <img src="imagenes/images.jpg" style="width:600px;height:400px;" alt="ima">
+    </div>
+ 
+     <a href="#bailarina" data-rel="popup" data-position-to="window">
+    <img src="imagenes/bailarina.jpg" alt="bai2" style="width:100px;"></a>
+    <div data-role="popup" id="bailarina">
+    <p> ella es una hermosa bailarina </p>
+    <a href="#bailarina" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <img src="imagenes/bailarina.jpg" style="width:600px;height:400px;" alt="bai2">
+    </div>
+    
+     <a href="#baila3" data-rel="popup" data-position-to="window">
+    <img src="imagenes/baila3.jpg" alt="yaz" style="width:100px;"></a>
+    <div data-role="popup" id="baila3">
+    <p> :D </p>
+    <a href="#baila3" data-rel="back" class="ui-btn ui-corner-all ui-shadow ui-btn-a ui-icon-delete ui-btn-icon-notext ui-btn-right">Close</a>
+    <img src="imagenes/baila3.jpg" style="width:600px;height:400px;" alt="yaz">
+    </div>
+    </center>
+     </div>
+	<div data-role="footer" data-position="fixed" >
+		<div data-role="navbar" data-iconpos="top">
+        <ul>
+        <li>
+          <a href="#page" data-transition="slide" data-icon="home">
+          Inicio
+          </a>
+          </li>
+          <li>
+          <a href="#ayuda" data-transition="slide" data-icon="info">
+          Ayuda 
+          </a>
+          </li>
+          <li>
+          <a href="#contacto" data-transition="slide" data-icon="alert">
+          contacto 
+          </a>
+          </li>
+          </ul>
+          
+          
+	</div>
+	</div>
+</div>
+<div data-role="page" id="ayuda">
+  <div data-role="header">
+    <h1>Pagina de ayuda</h1>
+  </div>
+  <div data-role="content">Si no funciona esta aplicacion echarle la culpa a la creadora yaz :3</div>
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+<div data-role="page" id="contacto">
+  <div data-role="header">
+    <h1>Pagina de contacto</h1>
+  </div>
+  <div data-role="content">yaz_nena_106@hotmail.com o 2761075141</div>
+  <div data-role="footer">
+    <h4>Pie</h4>
+  </div>
+</div>
+
+
+
+
+
+</body>
+</html>
